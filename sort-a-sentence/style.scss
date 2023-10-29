@@ -1,0 +1,45 @@
+$wordBoxShadow: 0 0px 5px 0 rgba(0,0,0,0.3);
+$headerFooterHeight: 100px;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100wh;
+}
+header , footer{
+  background-color: grey;
+  width: 100%;
+  height: $headerFooterHeight;
+}
+main {
+  background-color: antiquewhite;
+  width: 100%;
+  height: calc(100vh - #{$headerFooterHeight * 2});
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    background-color: white;
+    width: 500px;
+    height: $headerFooterHeight;
+    border-radius: 10px;
+    .word-boxes {
+      display: flex;
+      height: $headerFooterHeight/2;
+    }
+  }
+}
+.container--random--word-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: $wordBoxShadow;
+}
+
+

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  margin-top: 20%;
+}
+form {
+    display: inline-block;
+    background-image: linear-gradient(300deg, purple, blue);
+    border-radius: 20px;
+    padding: 50px;
+}
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 900;
+    color: antiquewhite;
+    width: 120px;
+    display: inline-block;
+    text-align: left;
+}
+input {
+  border-radius: 5px;
+}

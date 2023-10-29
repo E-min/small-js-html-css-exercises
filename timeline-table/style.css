@@ -1,0 +1,18 @@
+table {
+  width: 600px;
+  text-align: center;
+  font-family: cursive;
+}
+.align-left {
+  text-align: left;
+}
+th {
+  background-color: rgb(68, 114, 196);
+  color: white;
+}
+tr td {
+  background-color: rgb(218, 221, 231);
+}
+.grey td {
+  background-color: rgb(206, 212, 234);
+}
